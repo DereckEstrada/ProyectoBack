@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoSoftware.Back\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{62F6B9C3-11FA-4BCC-A88C-AC601FF88A5A}|src\\ProyectoSoftware.Back.DAL\\ProyectoSoftware.Back.DAL.csproj|c:\\users\\derec\\onedrive\\documents\\bootcamp\\.netcore\\proyectosoftware.back\\src\\proyectosoftware.back.dal\\proyectosoftware.back.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{62F6B9C3-11FA-4BCC-A88C-AC601FF88A5A}|src\\ProyectoSoftware.Back.DAL\\ProyectoSoftware.Back.DAL.csproj|solutionrelative:src\\proyectosoftware.back.dal\\proyectosoftware.back.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54249F9C-C5EF-48C6-8B7B-30FC808B0267}|src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj|c:\\users\\derec\\onedrive\\documents\\bootcamp\\.netcore\\proyectosoftware.back\\src\\proyectosoftware.back.api\\proyectosoftware.back.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{54249F9C-C5EF-48C6-8B7B-30FC808B0267}|src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj|solutionrelative:src\\proyectosoftware.back.api\\proyectosoftware.back.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EDABF48-8CCB-49D5-A72D-460FA5E13855}|src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj|c:\\users\\derec\\onedrive\\documents\\bootcamp\\.netcore\\proyectosoftware.back\\src\\proyectosoftware.back.bl\\proyectosoftware.back.bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2EDABF48-8CCB-49D5-A72D-460FA5E13855}|src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj|solutionrelative:src\\proyectosoftware.back.bl\\proyectosoftware.back.bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54249F9C-C5EF-48C6-8B7B-30FC808B0267}|src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj|c:\\users\\derec\\onedrive\\documents\\bootcamp\\.netcore\\proyectosoftware.back\\src\\proyectosoftware.back.api\\controllers\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54249F9C-C5EF-48C6-8B7B-30FC808B0267}|src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj|solutionrelative:src\\proyectosoftware.back.api\\controllers\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5A1B850-9A05-4C50-BB59-B007E46311CC}|src\\ProyectoSoftware.Back.BE\\ProyectoSoftware.Back.BE.csproj|c:\\users\\derec\\onedrive\\documents\\bootcamp\\.netcore\\proyectosoftware.back\\src\\proyectosoftware.back.be\\utilitarian\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A1B850-9A05-4C50-BB59-B007E46311CC}|src\\ProyectoSoftware.Back.BE\\ProyectoSoftware.Back.BE.csproj|solutionrelative:src\\proyectosoftware.back.be\\utilitarian\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EDABF48-8CCB-49D5-A72D-460FA5E13855}|src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj|c:\\users\\derec\\onedrive\\documents\\bootcamp\\.netcore\\proyectosoftware.back\\src\\proyectosoftware.back.bl\\interfaces\\irolservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EDABF48-8CCB-49D5-A72D-460FA5E13855}|src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj|solutionrelative:src\\proyectosoftware.back.bl\\interfaces\\irolservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProyectoSoftware.Back.DAL",
+              "DocumentMoniker": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoSoftware.Back\\src\\ProyectoSoftware.Back.DAL\\ProyectoSoftware.Back.DAL.csproj",
+              "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.DAL\\ProyectoSoftware.Back.DAL.csproj",
+              "ToolTip": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoSoftware.Back\\src\\ProyectoSoftware.Back.DAL\\ProyectoSoftware.Back.DAL.csproj",
+              "RelativeToolTip": "src\\ProyectoSoftware.Back.DAL\\ProyectoSoftware.Back.DAL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-05T05:01:08.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProyectoSoftware.Back.API",
+              "DocumentMoniker": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoSoftware.Back\\src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj",
+              "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj",
+              "ToolTip": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoSoftware.Back\\src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj",
+              "RelativeToolTip": "src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-05T05:04:22.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Extensions.cs",
+              "DocumentMoniker": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoSoftware.Back\\src\\ProyectoSoftware.Back.BE\\Utilitarian\\Extensions.cs",
+              "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.BE\\Utilitarian\\Extensions.cs",
+              "ToolTip": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoSoftware.Back\\src\\ProyectoSoftware.Back.BE\\Utilitarian\\Extensions.cs",
+              "RelativeToolTip": "src\\ProyectoSoftware.Back.BE\\Utilitarian\\Extensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T04:58:37.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRolServices.cs",
+              "DocumentMoniker": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoSoftware.Back\\src\\ProyectoSoftware.Back.BL\\Interfaces\\IRolServices.cs",
+              "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.BL\\Interfaces\\IRolServices.cs",
+              "ToolTip": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoSoftware.Back\\src\\ProyectoSoftware.Back.BL\\Interfaces\\IRolServices.cs",
+              "RelativeToolTip": "src\\ProyectoSoftware.Back.BL\\Interfaces\\IRolServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T04:49:38.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RolController.cs",
+              "DocumentMoniker": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoSoftware.Back\\src\\ProyectoSoftware.Back.API\\Controllers\\RolController.cs",
+              "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.API\\Controllers\\RolController.cs",
+              "ToolTip": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoSoftware.Back\\src\\ProyectoSoftware.Back.API\\Controllers\\RolController.cs",
+              "RelativeToolTip": "src\\ProyectoSoftware.Back.API\\Controllers\\RolController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T04:45:27.059Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1498,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "04fc78c1-1456-4152-a9eb-c85e7548044b",
+        "Display": 0,
+        "X": 1053,
+        "Y": 134,
+        "Width": 488,
+        "Height": 687,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProyectoSoftware.Back.BL",
+              "DocumentMoniker": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoSoftware.Back\\src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj",
+              "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj",
+              "ToolTip": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoSoftware.Back\\src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj",
+              "RelativeToolTip": "src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-05T05:03:20.061Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

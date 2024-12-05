@@ -1,0 +1,6 @@
+@ProyectoSoftware.Back.API_HostAddress = http://localhost:5001
+
+GET {{ProyectoSoftware.Back.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
