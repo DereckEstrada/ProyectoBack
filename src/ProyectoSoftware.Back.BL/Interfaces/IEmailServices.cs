@@ -10,7 +10,7 @@ namespace ProyectoSoftware.Back.BL.Interfaces
 {
     public interface IEmailServices
     {
-        Task<ResponseHttp<string>> SendEmail(EmailRequest request);
+        Task<ResponseHttp<bool>> SendEmail(EmailRequest request);
 
     }
 }

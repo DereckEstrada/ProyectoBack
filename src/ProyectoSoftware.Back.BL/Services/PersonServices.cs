@@ -78,7 +78,7 @@ namespace ProyectoSoftware.Back.BL.Services
             {
                 listPerson = await iQueryable.Include(person => person.Sex)
                             .Include(person => person.User)
-                            .Include(person => person.User.Rol)
+                            .Include(person =>  person.User.Rol )
                             .Select(person => new PersonDto
                             {
                                 PersonaId=person.PersonaId,

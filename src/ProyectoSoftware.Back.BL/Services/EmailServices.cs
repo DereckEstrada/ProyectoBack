@@ -21,9 +21,9 @@ namespace ProyectoSoftware.Back.BL.Services
             : IEmailServices
         {
         private readonly EmailCredential _credential = credential.Value;
-        public Task<ResponseHttp<string>> SendEmail(EmailRequest emailDto)
+        public Task<ResponseHttp<bool>> SendEmail(EmailRequest emailDto)
         {
-            ResponseHttp<string> response = new();
+            ResponseHttp<bool> response = new();
             try
             {
                 var username = _credential.Username ?? throw new Exception("missing username configuration");
@@ -43,15 +43,16 @@ namespace ProyectoSoftware.Back.BL.Services
                 {
                     IsBodyHtml = true,
                     Subject = emailDto.Subject ?? "Valor por defecto",
-                    Body = GetDocument(emailDto.Template ?? "<h1>Valor por defecto</h1>", emailDto.Params)
+                    Body = GetDocument(emailDto.Template ?? "<h1>Valor por defecto</h1>", emailDto.Params ?? throw new Exception("Sin parametros para el correo"))
                 });
 
                 smtpClient.Send(mailMessage);
 
                 response.Code = CodeResponse.Ok;
+                response.Data = true;
                 response.Message = MessageResponse.Ok;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 throw;
             }
@@ -70,7 +71,7 @@ namespace ProyectoSoftware.Back.BL.Services
 
                 return mailMessage;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 throw;
             }
@@ -86,8 +87,8 @@ namespace ProyectoSoftware.Back.BL.Services
                 var path = config["RutaDocuments"] + template;
 
                 body = ReplaceParams(File.ReadAllText(path), parameters);
-            }
-            catch (Exception ex)
+            }   
+            catch (Exception)
             {
                 throw;
             }
@@ -106,7 +107,7 @@ namespace ProyectoSoftware.Back.BL.Services
 
                 bodyParams = body;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 throw;
             }

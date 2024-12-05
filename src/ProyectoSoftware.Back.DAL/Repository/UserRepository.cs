@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System.Linq.Expressions;
+using Microsoft.EntityFrameworkCore;
 using ProyectoSoftware.Back.BE.Models;
 using ProyectoSoftware.Back.BE.Request;
 using ProyectoSoftware.Back.DAL.Interfaces;
@@ -14,18 +15,18 @@ namespace ProyectoSoftware.Back.DAL.Repository
         {
             this._context = context;
         }
-        public async Task<User> GetUser(AuthenticationRequest request)
+        public IQueryable<User> GetUser(Expression<Func<User, bool>> expression)
         {
-            var response=new User();
+            IQueryable<User> response;
             try
             {
-                response=await _context.Users.FirstOrDefaultAsync(user=>user.Email.Equals(request.Email));
+                response= _context.Users.Where(expression);
             }
             catch (Exception)
             {
                 throw;
             }
-            return response??new User();
+            return response;
         }
 
         public async Task UpdateUser(User user)

@@ -1,4 +1,7 @@
-﻿using AutoMapper;
+﻿using System.Linq.Expressions;
+using AutoMapper;
+using Microsoft.AspNetCore.Http.Metadata;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using ProyectoSoftware.Back.BE.Const;
 using ProyectoSoftware.Back.BE.Dtos;
@@ -7,11 +10,7 @@ using ProyectoSoftware.Back.BE.Request;
 using ProyectoSoftware.Back.BE.Utilitarian;
 using ProyectoSoftware.Back.BL.Interfaces;
 using ProyectoSoftware.Back.DAL.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace ProyectoSoftware.Back.BL.Services
 {
@@ -19,20 +18,23 @@ namespace ProyectoSoftware.Back.BL.Services
     {
         private readonly IUserRepository _repository;
         private readonly IMapper _mapper;
+        private readonly IEmailServices _emailServices;
         private readonly string _keyToken;
-
-        public UserServices(IUserRepository repository, IMapper mapper, IConfiguration configuration)
+        private const string _invalidToken = "invalid token";
+        public UserServices(IUserRepository repository, IMapper mapper, IConfiguration configuration, IEmailServices emailServices)
         {
             this._repository = repository;
             this._mapper = mapper;
+            this._emailServices = emailServices;
             this._keyToken= configuration["keyJWT"]!;
         }
         public async Task<ResponseHttp<TokenJWT>> GetUser(AuthenticationRequest request)
         {
             ResponseHttp<TokenJWT> response = new();
+            Expression<Func<User, bool>> expression = user => user.Email.Equals(request.Email);
             try
             {
-                User user = await _repository.GetUser(request);
+                var user = await _repository.GetUser(expression).FirstOrDefaultAsync();
                 if (user == null)
                 {
                     throw new Exception("Login Incorrecto");
@@ -126,5 +128,130 @@ namespace ProyectoSoftware.Back.BL.Services
             }
             return response;
         }
+
+        public async Task<ResponseHttp<bool>> ChangesPassword(AuthenticationRequest request)
+        {
+            ResponseHttp<bool> response = new();
+            Expression<Func<User, bool>> expression = user => user.Email.Equals(request.Email);
+            try
+            {
+
+                var user = await _repository.GetUser(expression).FirstOrDefaultAsync();
+                if (user != null)
+                {
+                    throw new Exception("invalid Email");
+                }
+                user.Password = user.Password.Encrypted();
+                await _repository.UpdateUser(user);
+                response.Code = CodeResponse.Accepted;
+                response.Data=true;
+                response.Message = MessageResponse.Accepted;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            return response;
+        }
+
+        public async Task<ResponseHttp<bool>> RestedUser(AuthenticationRequest request)
+        {
+            ResponseHttp<bool> response = new();
+            Expression<Func<User, bool>> expression = user => user.Email.Equals(request.Email);
+            try
+            {
+                var user = await _repository.GetUser(expression).FirstOrDefaultAsync();
+                if (user != null) 
+                {
+                    throw new Exception(_invalidToken);
+                }
+                user.Password = user.Password.Encrypted();
+                await _repository.UpdateUser(user);
+                response.Code = CodeResponse.Accepted;
+                response.Data = true;
+                response.Message = MessageResponse.Accepted;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            return response;
+        }
+
+        public async  Task<ResponseHttp<bool>> GeneratedToken(EmailRequest request)
+        {
+            ResponseHttp<bool> response = new();
+            Expression<Func<User, bool>> expression = user => user.RecoveredToken !=  null && user.RecoveredToken.Equals(request.To);
+
+
+            try
+            {
+                var userDto = await _repository.GetUser(expression).Include(userDb=>userDb.Rol).Select(userDb=>new UserDto
+                {
+                    UserId=userDb.UserId,
+                    Email=userDb.Email,
+                    Rol=userDb.Rol != null? userDb.Rol.DescriptionRol:""
+                }).FirstOrDefaultAsync();
+
+                if (userDto == null)
+                {
+                    throw new Exception(_invalidToken);
+                }
+                expression = user => user.UserId == userDto.UserId ;
+                var user = await _repository.GetUser(expression).FirstOrDefaultAsync();
+                if (user == null)
+                {
+                    throw new Exception(_invalidToken);
+                }
+                var token = _keyToken.CreatedToken(userDto).Token;
+                user.RecoveredToken=token;
+                await _repository.UpdateUser(user);
+                var validParams=request.Params ?? throw new Exception("Sin parametros");
+                request.Params["link"] += token;
+
+                response = await SendEmailToken(request);
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            return response;
+        }
+        private async Task<ResponseHttp<bool>> SendEmailToken(EmailRequest request)
+        {
+            ResponseHttp<bool> response = new();
+            try
+            {
+                response = await _emailServices.SendEmail(request);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            return response;
+        }
+        public async Task<ResponseHttp<bool>> ValidToken(AuthenticationRequest request)
+        {
+            ResponseHttp<bool> response = new();
+            Expression<Func<User, bool>> expression = user => user.RecoveredToken != null && user.RecoveredToken.Equals(request.Token);
+            try
+            {
+                var user = await _repository.GetUser(expression).FirstOrDefaultAsync();
+                if (user == null) 
+                {
+                    throw new Exception(_invalidToken);
+                }
+                response.Code = CodeResponse.Accepted;
+                response.Data = true;
+                response.Message=MessageResponse.Accepted;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            return response;
+        }
+
     }
 }

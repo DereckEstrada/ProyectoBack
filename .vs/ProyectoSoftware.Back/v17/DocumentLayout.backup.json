@@ -1,30 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoSoftware.Back\\",
+  "WorkspaceRootPath": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{54249F9C-C5EF-48C6-8B7B-30FC808B0267}|src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj|c:\\users\\derec\\onedrive\\documents\\bootcamp\\.netcore\\proyectosoftware.back\\src\\proyectosoftware.back.api\\proyectosoftware.back.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{54249F9C-C5EF-48C6-8B7B-30FC808B0267}|src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj|solutionrelative:src\\proyectosoftware.back.api\\proyectosoftware.back.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{54249F9C-C5EF-48C6-8B7B-30FC808B0267}|src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj|c:\\users\\viamatica\\documents\\practica\\proyectoback\\src\\proyectosoftware.back.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54249F9C-C5EF-48C6-8B7B-30FC808B0267}|src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj|solutionrelative:src\\proyectosoftware.back.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EDABF48-8CCB-49D5-A72D-460FA5E13855}|src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj|c:\\users\\derec\\onedrive\\documents\\bootcamp\\.netcore\\proyectosoftware.back\\src\\proyectosoftware.back.bl\\proyectosoftware.back.bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{2EDABF48-8CCB-49D5-A72D-460FA5E13855}|src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj|solutionrelative:src\\proyectosoftware.back.bl\\proyectosoftware.back.bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{54249F9C-C5EF-48C6-8B7B-30FC808B0267}|src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj|c:\\users\\viamatica\\documents\\practica\\proyectoback\\src\\proyectosoftware.back.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54249F9C-C5EF-48C6-8B7B-30FC808B0267}|src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj|solutionrelative:src\\proyectosoftware.back.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5A1B850-9A05-4C50-BB59-B007E46311CC}|src\\ProyectoSoftware.Back.BE\\ProyectoSoftware.Back.BE.csproj|c:\\users\\derec\\onedrive\\documents\\bootcamp\\.netcore\\proyectosoftware.back\\src\\proyectosoftware.back.be\\proyectosoftware.back.be.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{E5A1B850-9A05-4C50-BB59-B007E46311CC}|src\\ProyectoSoftware.Back.BE\\ProyectoSoftware.Back.BE.csproj|solutionrelative:src\\proyectosoftware.back.be\\proyectosoftware.back.be.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{54249F9C-C5EF-48C6-8B7B-30FC808B0267}|src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj|c:\\users\\viamatica\\documents\\practica\\proyectoback\\src\\proyectosoftware.back.api\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54249F9C-C5EF-48C6-8B7B-30FC808B0267}|src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj|solutionrelative:src\\proyectosoftware.back.api\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{54249F9C-C5EF-48C6-8B7B-30FC808B0267}|src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj|c:\\users\\derec\\onedrive\\documents\\bootcamp\\.netcore\\proyectosoftware.back\\src\\proyectosoftware.back.api\\controllers\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{54249F9C-C5EF-48C6-8B7B-30FC808B0267}|src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj|c:\\users\\viamatica\\documents\\practica\\proyectoback\\src\\proyectosoftware.back.api\\controllers\\sexcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54249F9C-C5EF-48C6-8B7B-30FC808B0267}|src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj|solutionrelative:src\\proyectosoftware.back.api\\controllers\\sexcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54249F9C-C5EF-48C6-8B7B-30FC808B0267}|src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj|c:\\users\\viamatica\\documents\\practica\\proyectoback\\src\\proyectosoftware.back.api\\controllers\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54249F9C-C5EF-48C6-8B7B-30FC808B0267}|src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj|solutionrelative:src\\proyectosoftware.back.api\\controllers\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5A1B850-9A05-4C50-BB59-B007E46311CC}|src\\ProyectoSoftware.Back.BE\\ProyectoSoftware.Back.BE.csproj|c:\\users\\derec\\onedrive\\documents\\bootcamp\\.netcore\\proyectosoftware.back\\src\\proyectosoftware.back.be\\utilitarian\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5A1B850-9A05-4C50-BB59-B007E46311CC}|src\\ProyectoSoftware.Back.BE\\ProyectoSoftware.Back.BE.csproj|solutionrelative:src\\proyectosoftware.back.be\\utilitarian\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2EDABF48-8CCB-49D5-A72D-460FA5E13855}|src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj|c:\\users\\viamatica\\documents\\practica\\proyectoback\\src\\proyectosoftware.back.bl\\services\\personservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EDABF48-8CCB-49D5-A72D-460FA5E13855}|src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj|solutionrelative:src\\proyectosoftware.back.bl\\services\\personservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EDABF48-8CCB-49D5-A72D-460FA5E13855}|src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj|c:\\users\\derec\\onedrive\\documents\\bootcamp\\.netcore\\proyectosoftware.back\\src\\proyectosoftware.back.bl\\interfaces\\irolservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EDABF48-8CCB-49D5-A72D-460FA5E13855}|src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj|solutionrelative:src\\proyectosoftware.back.bl\\interfaces\\irolservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2EDABF48-8CCB-49D5-A72D-460FA5E13855}|src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj|c:\\users\\viamatica\\documents\\practica\\proyectoback\\src\\proyectosoftware.back.bl\\services\\emailservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EDABF48-8CCB-49D5-A72D-460FA5E13855}|src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj|solutionrelative:src\\proyectosoftware.back.bl\\services\\emailservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,98 +38,98 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProyectoSoftware.Back.API",
-              "DocumentMoniker": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoSoftware.Back\\src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj",
-              "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj",
-              "ToolTip": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoSoftware.Back\\src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj",
-              "RelativeToolTip": "src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-05T05:04:22.637Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\Program.cs",
+              "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.API\\Program.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\Program.cs",
+              "RelativeToolTip": "src\\ProyectoSoftware.Back.API\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T13:33:03.699Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProyectoSoftware.Back.BE",
-              "DocumentMoniker": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoSoftware.Back\\src\\ProyectoSoftware.Back.BE\\ProyectoSoftware.Back.BE.csproj",
-              "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.BE\\ProyectoSoftware.Back.BE.csproj",
-              "ToolTip": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoSoftware.Back\\src\\ProyectoSoftware.Back.BE\\ProyectoSoftware.Back.BE.csproj",
-              "RelativeToolTip": "src\\ProyectoSoftware.Back.BE\\ProyectoSoftware.Back.BE.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-05T05:03:29.402Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProyectoSoftware.Back.BL",
-              "DocumentMoniker": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoSoftware.Back\\src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj",
-              "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj",
-              "ToolTip": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoSoftware.Back\\src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj",
-              "RelativeToolTip": "src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-05T05:03:20.061Z",
+              "DocumentIndex": 3,
+              "Title": "SexController.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\Controllers\\SexController.cs",
+              "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.API\\Controllers\\SexController.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\Controllers\\SexController.cs",
+              "RelativeToolTip": "src\\ProyectoSoftware.Back.API\\Controllers\\SexController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T13:32:22.813Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Extensions.cs",
-              "DocumentMoniker": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoSoftware.Back\\src\\ProyectoSoftware.Back.BE\\Utilitarian\\Extensions.cs",
-              "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.BE\\Utilitarian\\Extensions.cs",
-              "ToolTip": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoSoftware.Back\\src\\ProyectoSoftware.Back.BE\\Utilitarian\\Extensions.cs",
-              "RelativeToolTip": "src\\ProyectoSoftware.Back.BE\\Utilitarian\\Extensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAcAAAAAAAAAA==",
+              "Title": "RolController.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\Controllers\\RolController.cs",
+              "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.API\\Controllers\\RolController.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\Controllers\\RolController.cs",
+              "RelativeToolTip": "src\\ProyectoSoftware.Back.API\\Controllers\\RolController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T04:58:37.3Z",
+              "WhenOpened": "2024-12-05T13:32:18.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PersonController.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\Controllers\\PersonController.cs",
+              "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.API\\Controllers\\PersonController.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\Controllers\\PersonController.cs*",
+              "RelativeToolTip": "src\\ProyectoSoftware.Back.API\\Controllers\\PersonController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T13:23:15.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.API\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\Controllers\\UserController.cs*",
+              "RelativeToolTip": "src\\ProyectoSoftware.Back.API\\Controllers\\UserController.cs*",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAACAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T13:19:10.769Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "IRolServices.cs",
-              "DocumentMoniker": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoSoftware.Back\\src\\ProyectoSoftware.Back.BL\\Interfaces\\IRolServices.cs",
-              "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.BL\\Interfaces\\IRolServices.cs",
-              "ToolTip": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoSoftware.Back\\src\\ProyectoSoftware.Back.BL\\Interfaces\\IRolServices.cs",
-              "RelativeToolTip": "src\\ProyectoSoftware.Back.BL\\Interfaces\\IRolServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Title": "PersonServices.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.BL\\Services\\PersonServices.cs",
+              "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.BL\\Services\\PersonServices.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.BL\\Services\\PersonServices.cs",
+              "RelativeToolTip": "src\\ProyectoSoftware.Back.BL\\Services\\PersonServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T04:49:38.502Z"
+              "WhenOpened": "2024-12-05T13:16:46.3Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RolController.cs",
-              "DocumentMoniker": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoSoftware.Back\\src\\ProyectoSoftware.Back.API\\Controllers\\RolController.cs",
-              "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.API\\Controllers\\RolController.cs",
-              "ToolTip": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoSoftware.Back\\src\\ProyectoSoftware.Back.API\\Controllers\\RolController.cs",
-              "RelativeToolTip": "src\\ProyectoSoftware.Back.API\\Controllers\\RolController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "EmailServices.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.BL\\Services\\EmailServices.cs",
+              "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.BL\\Services\\EmailServices.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.BL\\Services\\EmailServices.cs",
+              "RelativeToolTip": "src\\ProyectoSoftware.Back.BL\\Services\\EmailServices.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAGwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T04:45:27.059Z",
+              "WhenOpened": "2024-12-05T13:15:56.374Z",
               "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 1498,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }

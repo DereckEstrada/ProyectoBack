@@ -11,7 +11,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ProyectoSoftware.Back.API\ProyectoSoftware.Back.API.csproj" />
     <ProjectReference Include="..\ProyectoSoftware.Back.BE\ProyectoSoftware.Back.BE.csproj" />
     <ProjectReference Include="..\ProyectoSoftware.Back.DAL\ProyectoSoftware.Back.DAL.csproj" />
   </ItemGroup>
