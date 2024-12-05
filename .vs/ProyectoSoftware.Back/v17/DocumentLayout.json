@@ -84,7 +84,7 @@
               "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.API\\appsettings.json",
               "ToolTip": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\appsettings.json",
               "RelativeToolTip": "src\\ProyectoSoftware.Back.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxYAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-12-05T14:41:10.688Z",
               "EditorCaption": ""
@@ -99,8 +99,7 @@
               "RelativeToolTip": "src\\ProyectoSoftware.Back.BE\\Request\\EmailRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T14:27:28.311Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T14:27:28.311Z"
             },
             {
               "$type": "Document",
@@ -112,8 +111,7 @@
               "RelativeToolTip": "src\\ProyectoSoftware.Back.BL\\Interfaces\\IEmailServices.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T14:22:39.665Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T14:22:39.665Z"
             },
             {
               "$type": "Document",
@@ -125,8 +123,7 @@
               "RelativeToolTip": "src\\ProyectoSoftware.Back.BL\\Interfaces\\IUserServices.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T13:51:46.141Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T13:51:46.141Z"
             },
             {
               "$type": "Document",
@@ -138,8 +135,7 @@
               "RelativeToolTip": "src\\ProyectoSoftware.Back.DAL\\Interfaces\\IUserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T13:51:20.992Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T13:51:20.992Z"
             },
             {
               "$type": "Document",
@@ -151,8 +147,7 @@
               "RelativeToolTip": "src\\ProyectoSoftware.Back.BL\\Services\\UserServices.cs",
               "ViewState": "AgIAAHsAAAAAAAAAAAAmwN8AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T13:42:20.042Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T13:42:20.042Z"
             },
             {
               "$type": "Document",
@@ -164,8 +159,7 @@
               "RelativeToolTip": "src\\ProyectoSoftware.Back.API\\Controllers\\UserController.cs",
               "ViewState": "AgIAADUAAAAAAAAAAAAAwFAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T13:19:10.769Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T13:19:10.769Z"
             },
             {
               "$type": "Document",
@@ -177,8 +171,7 @@
               "RelativeToolTip": "src\\ProyectoSoftware.Back.API\\Program.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAAABoAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T13:33:03.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T13:33:03.699Z"
             },
             {
               "$type": "Document",
@@ -190,8 +183,7 @@
               "RelativeToolTip": "src\\ProyectoSoftware.Back.BL\\Services\\EmailServices.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAQwDYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T13:15:56.374Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T13:15:56.374Z"
             },
             {
               "$type": "Document",
@@ -203,8 +195,7 @@
               "RelativeToolTip": "src\\ProyectoSoftware.Back.DAL\\Repository\\UserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T13:50:15.099Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T13:50:15.099Z"
             },
             {
               "$type": "Document",
@@ -216,8 +207,7 @@
               "RelativeToolTip": "src\\ProyectoSoftware.Back.BE\\Request\\AuthenticationRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T13:53:19.552Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T13:53:19.552Z"
             },
             {
               "$type": "Document",
@@ -229,8 +219,7 @@
               "RelativeToolTip": "src\\ProyectoSoftware.Back.API\\Controllers\\EmailController.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAgwBsAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T13:36:22.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T13:36:22.41Z"
             },
             {
               "$type": "Document",
@@ -242,8 +231,7 @@
               "RelativeToolTip": "src\\ProyectoSoftware.Back.API\\Controllers\\SexController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T13:32:22.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T13:32:22.813Z"
             },
             {
               "$type": "Document",
@@ -255,8 +243,7 @@
               "RelativeToolTip": "src\\ProyectoSoftware.Back.API\\Controllers\\RolController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T13:32:18.19Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T13:32:18.19Z"
             },
             {
               "$type": "Document",
@@ -268,8 +255,7 @@
               "RelativeToolTip": "src\\ProyectoSoftware.Back.API\\Controllers\\PersonController.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T13:23:15.58Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T13:23:15.58Z"
             },
             {
               "$type": "Document",
@@ -281,8 +267,7 @@
               "RelativeToolTip": "src\\ProyectoSoftware.Back.BL\\Services\\PersonServices.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T13:16:46.3Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T13:16:46.3Z"
             }
           ]
         }

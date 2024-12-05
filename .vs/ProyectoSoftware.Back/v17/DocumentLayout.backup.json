@@ -3,12 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{54249F9C-C5EF-48C6-8B7B-30FC808B0267}|src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj|c:\\users\\viamatica\\documents\\practica\\proyectoback\\src\\proyectosoftware.back.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{54249F9C-C5EF-48C6-8B7B-30FC808B0267}|src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj|solutionrelative:src\\proyectosoftware.back.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{54249F9C-C5EF-48C6-8B7B-30FC808B0267}|src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj|c:\\users\\viamatica\\documents\\practica\\proyectoback\\src\\proyectosoftware.back.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54249F9C-C5EF-48C6-8B7B-30FC808B0267}|src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj|solutionrelative:src\\proyectosoftware.back.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2EDABF48-8CCB-49D5-A72D-460FA5E13855}|src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj|c:\\users\\viamatica\\documents\\practica\\proyectoback\\src\\proyectosoftware.back.bl\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EDABF48-8CCB-49D5-A72D-460FA5E13855}|src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj|solutionrelative:src\\proyectosoftware.back.bl\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{54249F9C-C5EF-48C6-8B7B-30FC808B0267}|src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj|c:\\users\\viamatica\\documents\\practica\\proyectoback\\src\\proyectosoftware.back.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54249F9C-C5EF-48C6-8B7B-30FC808B0267}|src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj|solutionrelative:src\\proyectosoftware.back.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5A1B850-9A05-4C50-BB59-B007E46311CC}|src\\ProyectoSoftware.Back.BE\\ProyectoSoftware.Back.BE.csproj|c:\\users\\viamatica\\documents\\practica\\proyectoback\\src\\proyectosoftware.back.be\\request\\emailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A1B850-9A05-4C50-BB59-B007E46311CC}|src\\ProyectoSoftware.Back.BE\\ProyectoSoftware.Back.BE.csproj|solutionrelative:src\\proyectosoftware.back.be\\request\\emailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EDABF48-8CCB-49D5-A72D-460FA5E13855}|src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj|c:\\users\\viamatica\\documents\\practica\\proyectoback\\src\\proyectosoftware.back.bl\\interfaces\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EDABF48-8CCB-49D5-A72D-460FA5E13855}|src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj|solutionrelative:src\\proyectosoftware.back.bl\\interfaces\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62F6B9C3-11FA-4BCC-A88C-AC601FF88A5A}|src\\ProyectoSoftware.Back.DAL\\ProyectoSoftware.Back.DAL.csproj|c:\\users\\viamatica\\documents\\practica\\proyectoback\\src\\proyectosoftware.back.dal\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62F6B9C3-11FA-4BCC-A88C-AC601FF88A5A}|src\\ProyectoSoftware.Back.DAL\\ProyectoSoftware.Back.DAL.csproj|solutionrelative:src\\proyectosoftware.back.dal\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EDABF48-8CCB-49D5-A72D-460FA5E13855}|src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj|c:\\users\\viamatica\\documents\\practica\\proyectoback\\src\\proyectosoftware.back.bl\\interfaces\\iemailservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EDABF48-8CCB-49D5-A72D-460FA5E13855}|src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj|solutionrelative:src\\proyectosoftware.back.bl\\interfaces\\iemailservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EDABF48-8CCB-49D5-A72D-460FA5E13855}|src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj|c:\\users\\viamatica\\documents\\practica\\proyectoback\\src\\proyectosoftware.back.bl\\services\\emailservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EDABF48-8CCB-49D5-A72D-460FA5E13855}|src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj|solutionrelative:src\\proyectosoftware.back.bl\\services\\emailservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62F6B9C3-11FA-4BCC-A88C-AC601FF88A5A}|src\\ProyectoSoftware.Back.DAL\\ProyectoSoftware.Back.DAL.csproj|c:\\users\\viamatica\\documents\\practica\\proyectoback\\src\\proyectosoftware.back.dal\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62F6B9C3-11FA-4BCC-A88C-AC601FF88A5A}|src\\ProyectoSoftware.Back.DAL\\ProyectoSoftware.Back.DAL.csproj|solutionrelative:src\\proyectosoftware.back.dal\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5A1B850-9A05-4C50-BB59-B007E46311CC}|src\\ProyectoSoftware.Back.BE\\ProyectoSoftware.Back.BE.csproj|c:\\users\\viamatica\\documents\\practica\\proyectoback\\src\\proyectosoftware.back.be\\request\\authenticationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A1B850-9A05-4C50-BB59-B007E46311CC}|src\\ProyectoSoftware.Back.BE\\ProyectoSoftware.Back.BE.csproj|solutionrelative:src\\proyectosoftware.back.be\\request\\authenticationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54249F9C-C5EF-48C6-8B7B-30FC808B0267}|src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj|c:\\users\\viamatica\\documents\\practica\\proyectoback\\src\\proyectosoftware.back.api\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54249F9C-C5EF-48C6-8B7B-30FC808B0267}|src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj|solutionrelative:src\\proyectosoftware.back.api\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{54249F9C-C5EF-48C6-8B7B-30FC808B0267}|src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj|c:\\users\\viamatica\\documents\\practica\\proyectoback\\src\\proyectosoftware.back.api\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2EDABF48-8CCB-49D5-A72D-460FA5E13855}|src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj|c:\\users\\viamatica\\documents\\practica\\proyectoback\\src\\proyectosoftware.back.bl\\services\\personservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2EDABF48-8CCB-49D5-A72D-460FA5E13855}|src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj|solutionrelative:src\\proyectosoftware.back.bl\\services\\personservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2EDABF48-8CCB-49D5-A72D-460FA5E13855}|src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj|c:\\users\\viamatica\\documents\\practica\\proyectoback\\src\\proyectosoftware.back.bl\\services\\emailservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EDABF48-8CCB-49D5-A72D-460FA5E13855}|src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj|solutionrelative:src\\proyectosoftware.back.bl\\services\\emailservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,19 +79,162 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\appsettings.json",
+              "RelativeToolTip": "src\\ProyectoSoftware.Back.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-05T14:41:10.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmailRequest.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.BE\\Request\\EmailRequest.cs",
+              "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.BE\\Request\\EmailRequest.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.BE\\Request\\EmailRequest.cs",
+              "RelativeToolTip": "src\\ProyectoSoftware.Back.BE\\Request\\EmailRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T14:27:28.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IEmailServices.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.BL\\Interfaces\\IEmailServices.cs",
+              "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.BL\\Interfaces\\IEmailServices.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.BL\\Interfaces\\IEmailServices.cs",
+              "RelativeToolTip": "src\\ProyectoSoftware.Back.BL\\Interfaces\\IEmailServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T14:22:39.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUserServices.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.BL\\Interfaces\\IUserServices.cs",
+              "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.BL\\Interfaces\\IUserServices.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.BL\\Interfaces\\IUserServices.cs",
+              "RelativeToolTip": "src\\ProyectoSoftware.Back.BL\\Interfaces\\IUserServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T13:51:46.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.DAL\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.DAL\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.DAL\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "src\\ProyectoSoftware.Back.DAL\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T13:51:20.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserServices.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.BL\\Services\\UserServices.cs",
+              "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.BL\\Services\\UserServices.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.BL\\Services\\UserServices.cs",
+              "RelativeToolTip": "src\\ProyectoSoftware.Back.BL\\Services\\UserServices.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAmwN8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T13:42:20.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.API\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "src\\ProyectoSoftware.Back.API\\Controllers\\UserController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAwFAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T13:19:10.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\Program.cs",
               "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.API\\Program.cs",
               "ToolTip": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\Program.cs",
               "RelativeToolTip": "src\\ProyectoSoftware.Back.API\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAABYAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABoAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T13:33:03.699Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
+              "Title": "EmailServices.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.BL\\Services\\EmailServices.cs",
+              "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.BL\\Services\\EmailServices.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.BL\\Services\\EmailServices.cs",
+              "RelativeToolTip": "src\\ProyectoSoftware.Back.BL\\Services\\EmailServices.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwDYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T13:15:56.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.DAL\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.DAL\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.DAL\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "src\\ProyectoSoftware.Back.DAL\\Repository\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T13:50:15.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthenticationRequest.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.BE\\Request\\AuthenticationRequest.cs",
+              "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.BE\\Request\\AuthenticationRequest.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.BE\\Request\\AuthenticationRequest.cs",
+              "RelativeToolTip": "src\\ProyectoSoftware.Back.BE\\Request\\AuthenticationRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T13:53:19.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EmailController.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\Controllers\\EmailController.cs",
+              "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.API\\Controllers\\EmailController.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\Controllers\\EmailController.cs",
+              "RelativeToolTip": "src\\ProyectoSoftware.Back.API\\Controllers\\EmailController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T13:36:22.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "SexController.cs",
               "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\Controllers\\SexController.cs",
               "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.API\\Controllers\\SexController.cs",
@@ -68,7 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "RolController.cs",
               "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\Controllers\\RolController.cs",
               "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.API\\Controllers\\RolController.cs",
@@ -81,33 +260,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "PersonController.cs",
               "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\Controllers\\PersonController.cs",
               "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.API\\Controllers\\PersonController.cs",
-              "ToolTip": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\Controllers\\PersonController.cs*",
-              "RelativeToolTip": "src\\ProyectoSoftware.Back.API\\Controllers\\PersonController.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\Controllers\\PersonController.cs",
+              "RelativeToolTip": "src\\ProyectoSoftware.Back.API\\Controllers\\PersonController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T13:23:15.58Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.API\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\Controllers\\UserController.cs*",
-              "RelativeToolTip": "src\\ProyectoSoftware.Back.API\\Controllers\\UserController.cs*",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAACAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T13:19:10.769Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "PersonServices.cs",
               "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.BL\\Services\\PersonServices.cs",
               "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.BL\\Services\\PersonServices.cs",
@@ -116,19 +282,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T13:16:46.3Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EmailServices.cs",
-              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.BL\\Services\\EmailServices.cs",
-              "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.BL\\Services\\EmailServices.cs",
-              "ToolTip": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.BL\\Services\\EmailServices.cs",
-              "RelativeToolTip": "src\\ProyectoSoftware.Back.BL\\Services\\EmailServices.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAAAGwAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T13:15:56.374Z",
               "EditorCaption": ""
             }
           ]
