@@ -349,3 +349,6 @@ C:\Users\derec\OneDrive\Documents\Bootcamp\.NetCore\ProyectoBack\src\ProyectoSof
 C:\Users\derec\OneDrive\Documents\Bootcamp\.NetCore\ProyectoBack\src\ProyectoSoftware.Back.API\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
 C:\Users\derec\OneDrive\Documents\Bootcamp\.NetCore\ProyectoBack\src\ProyectoSoftware.Back.API\bin\Debug\net8.0\MailKit.dll
 C:\Users\derec\OneDrive\Documents\Bootcamp\.NetCore\ProyectoBack\src\ProyectoSoftware.Back.API\bin\Debug\net8.0\MimeKit.dll
+C:\Users\viamatica\Documents\Practica\ProyectoBack\src\ProyectoSoftware.Back.API\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\viamatica\Documents\Practica\ProyectoBack\src\ProyectoSoftware.Back.API\bin\Debug\net8.0\MailKit.dll
+C:\Users\viamatica\Documents\Practica\ProyectoBack\src\ProyectoSoftware.Back.API\bin\Debug\net8.0\MimeKit.dll
