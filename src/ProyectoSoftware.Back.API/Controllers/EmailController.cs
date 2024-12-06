@@ -18,9 +18,9 @@ namespace ProyectoSoftware.Back.API.Controllers
             this._services = services;
         }
         [HttpPost("[action]")]
-        public async Task<ResponseHttp<string>> SendEmail(EmailRequest request)
+        public async Task<ResponseHttp<bool>> SendEmail(EmailRequest request)
         {
-            ResponseHttp<string> response = new();
+            ResponseHttp<bool> response = new();
             try
             {
                 response = await _services.SendEmail(request);

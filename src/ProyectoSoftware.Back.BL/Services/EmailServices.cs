@@ -17,101 +17,79 @@ using ProyectoSoftware.Back.BE.Const;
 namespace ProyectoSoftware.Back.BL.Services
 {
    
-        public class EmailServices(IOptions<EmailCredential> credential)
+        public class EmailServices(IOptions<EmailCredential> credential )
             : IEmailServices
         {
         private readonly EmailCredential _credential = credential.Value;
-        public Task<ResponseHttp<bool>> SendEmail(EmailRequest emailDto)
+
+        public async Task<ResponseHttp<bool>> SendEmail(EmailRequest emailDto)
         {
             ResponseHttp<bool> response = new();
             try
             {
-                var username = _credential.Username ?? throw new Exception("missing username configuration");
-                var password = _credential.Password ?? throw new Exception("missing password configuration");
-                var smtpClient = new SmtpClient
+                string username = this._credential.Username;
+                string password = this._credential.Password;
+                int port = this._credential.Port;
+                string host = this._credential.Host;
+                var message = new MailMessage();
+                message.From = new MailAddress(username);
+                message.To.Add(new MailAddress(emailDto.To));
+                message.Subject = emailDto.Subject;
+                message.Body = GetDocument(emailDto.Template, emailDto.Params);
+                message.IsBodyHtml = true;
+                var smtpClient = new SmtpClient(host)
                 {
-                    Host = _credential.Host ?? throw new Exception("missing host configuration"),
-                    Port = _credential.Port,
+                    Port = port,
                     Credentials = new NetworkCredential(username, password),
                     EnableSsl = true
                 };
+                await smtpClient.SendMailAsync(message);
 
-                var from = new MailAddress(_credential.From ?? throw new Exception("missing from configuration"), "Ecuasuiza");
-                var receiver = new MailAddress(emailDto.To ?? throw new Exception("missing to value"), "Beneficiario");
-
-                var mailMessage = ParserMailMessage(new MailMessage(from, receiver)
-                {
-                    IsBodyHtml = true,
-                    Subject = emailDto.Subject ?? "Valor por defecto",
-                    Body = GetDocument(emailDto.Template ?? "<h1>Valor por defecto</h1>", emailDto.Params ?? throw new Exception("Sin parametros para el correo"))
-                });
-
-                smtpClient.Send(mailMessage);
-
-                response.Code = CodeResponse.Ok;
+                response.Code = CodeResponse.Accepted;
                 response.Data = true;
-                response.Message = MessageResponse.Ok;
+                response.Message = MessageResponse.Accepted;
             }
-            catch (Exception)
+            catch (Exception )
             {
                 throw;
             }
-
-            return Task.FromResult(response);
+            return response;
         }
-
-        private MailMessage ParserMailMessage(MailMessage mailMessage)
+       
+        public string GetDocument(string template, Dictionary<string, string> parametros)
         {
-            try
-            {
-                foreach (var adr in _credential.Bcc.Split(";"))
-                {
-                    mailMessage.Bcc.Add(adr);
-                }
-
-                return mailMessage;
-            }
-            catch (Exception)
-            {
-                throw;
-            }
-        }
-
-        private string GetDocument(string template, Dictionary<string, string> parameters)
-        {
-            string body;
-
+            var body = string.Empty;
             try
             {
                 var config = Configuration.GetConfiguration();
-                var path = config["RutaDocuments"] + template;
-
-                body = ReplaceParams(File.ReadAllText(path), parameters);
-            }   
+                var ruta = config["RutaDocuments"] + template;
+                string bodySinParams = File.ReadAllText(ruta);
+                body = this.ReplaceParams(bodySinParams, parametros);
+            }
             catch (Exception)
             {
                 throw;
             }
             return body;
         }
-
-        private static string ReplaceParams(string body, Dictionary<string, string> parameters)
+        public string ReplaceParams(string body, Dictionary<string, string> parametros)
         {
-            string bodyParams;
+            var bodyParams = string.Empty;
             try
             {
-                foreach (var param in parameters.Where(parameter => body.Contains(parameter.Key)))
+                foreach (var parametro in parametros)
                 {
-                    body = body.Replace("[" + param.Key + "]", param.Value);
+                    if (body.Contains(parametro.Key))
+                    {
+                        body = body.Replace("[" + parametro.Key + "]", parametro.Value);
+                    }
                 }
-
                 bodyParams = body;
             }
             catch (Exception)
             {
                 throw;
             }
-
             return bodyParams;
         }
     }

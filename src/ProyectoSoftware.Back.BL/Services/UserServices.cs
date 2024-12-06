@@ -39,7 +39,7 @@ namespace ProyectoSoftware.Back.BL.Services
                 {
                     throw new Exception("Login Incorrecto");
                 }
-                if (!user.Password.Equals(request.Password))
+                if (!user.Password.Equals(request.Password.Encrypted()))
                 {
                     await UpdateUserFailed(user);
                     throw new Exception("Login Incorrecto");
@@ -181,12 +181,14 @@ namespace ProyectoSoftware.Back.BL.Services
         public async  Task<ResponseHttp<bool>> GeneratedToken(EmailRequest request)
         {
             ResponseHttp<bool> response = new();
-            Expression<Func<User, bool>> expression = user => user.RecoveredToken !=  null && user.RecoveredToken.Equals(request.To);
+            Expression<Func<User, bool>> expression = user => user.Email !=  null && user.Email.Equals(request.To);
 
 
             try
             {
-                var userDto = await _repository.GetUser(expression).Include(userDb=>userDb.Rol).Select(userDb=>new UserDto
+                var userDto = await _repository.GetUser(expression)
+                    .Include(userDb=>userDb.Rol)
+                    .Select(userDb=>new UserDto
                 {
                     UserId=userDb.UserId,
                     Email=userDb.Email,

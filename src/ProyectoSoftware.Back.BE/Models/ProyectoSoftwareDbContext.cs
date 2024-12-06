@@ -23,6 +23,7 @@ public partial class ProyectoSoftwareDbContext : DbContext
 
     public virtual DbSet<User> Users { get; set; }
 
+  
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Person>(entity =>
@@ -102,9 +103,8 @@ public partial class ProyectoSoftwareDbContext : DbContext
             entity.Property(e => e.NameUser).HasMaxLength(50);
             entity.Property(e => e.Password).HasMaxLength(255);
             entity.Property(e => e.RecoveredToken)
-                .HasMaxLength(200)
+                .HasMaxLength(500)
                 .IsFixedLength();
-            entity.Property(e => e.RolId).HasColumnName("RolID");
             entity.Property(e => e.UserCreate).HasColumnName("User_Create");
             entity.Property(e => e.UserModificate).HasColumnName("User_Modificate");
 

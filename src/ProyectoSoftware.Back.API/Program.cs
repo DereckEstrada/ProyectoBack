@@ -10,6 +10,17 @@ using ProyectoSoftware.Back.DAL.Repository;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(
+         "MyAllowSpecificOrigins",
+        policy =>
+        {
+            policy.WithOrigins("http://localhost:4200")
+                              .AllowAnyHeader()
+                              .AllowAnyMethod();
+        });
+});
 
 // Add services to the container.
 
@@ -49,7 +60,7 @@ builder.Services.AddAuthentication(options =>
 builder.Services.Configure<EmailCredential>(builder.Configuration.GetSection(EmailCredential.Credential));
 
 var app = builder.Build();
-
+app.UseCors("MyAllowSpecificOrigins");
 // Configure the HTTP request pipeline.
 
 app.UseAuthorization();

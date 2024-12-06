@@ -78,7 +78,7 @@ namespace ProyectoSoftware.Back.BL.Services
             {
                 listPerson = await iQueryable.Include(person => person.Sex)
                             .Include(person => person.User)
-                            .Include(person =>  person.User.Rol )
+                            .Include(person =>  person.User.Rol)
                             .Select(person => new PersonDto
                             {
                                 PersonaId=person.PersonaId,
@@ -115,6 +115,8 @@ namespace ProyectoSoftware.Back.BL.Services
             try
             {
                 Person person = _mapper.Map<Person>(request);
+                var userValid=person.User ?? throw new Exception("Invalid post Person, sin user");
+                person.User.Password = person.User.Password.Encrypted();
                 await _repository.PostPerson(person);
                 response.Code = CodeResponse.Create;
                 response.Data = true;
