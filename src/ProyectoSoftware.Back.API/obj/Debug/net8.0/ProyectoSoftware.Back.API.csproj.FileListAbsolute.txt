@@ -346,3 +346,6 @@ C:\Users\derec\OneDrive\Documents\Bootcamp\.NetCore\ProyectoBack\src\ProyectoSof
 C:\Users\derec\OneDrive\Documents\Bootcamp\.NetCore\ProyectoBack\src\ProyectoSoftware.Back.API\obj\Debug\net8.0\ProyectoSoftware.Back.API.pdb
 C:\Users\derec\OneDrive\Documents\Bootcamp\.NetCore\ProyectoBack\src\ProyectoSoftware.Back.API\obj\Debug\net8.0\ProyectoSoftware.Back.API.genruntimeconfig.cache
 C:\Users\derec\OneDrive\Documents\Bootcamp\.NetCore\ProyectoBack\src\ProyectoSoftware.Back.API\obj\Debug\net8.0\ref\ProyectoSoftware.Back.API.dll
+C:\Users\derec\OneDrive\Documents\Bootcamp\.NetCore\ProyectoBack\src\ProyectoSoftware.Back.API\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\derec\OneDrive\Documents\Bootcamp\.NetCore\ProyectoBack\src\ProyectoSoftware.Back.API\bin\Debug\net8.0\MailKit.dll
+C:\Users\derec\OneDrive\Documents\Bootcamp\.NetCore\ProyectoBack\src\ProyectoSoftware.Back.API\bin\Debug\net8.0\MimeKit.dll

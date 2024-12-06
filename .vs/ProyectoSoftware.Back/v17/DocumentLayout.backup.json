@@ -103,9 +103,9 @@
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\appsettings.json",
               "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\appsettings.json*",
-              "RelativeToolTip": "src\\ProyectoSoftware.Back.API\\appsettings.json*",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxUAAAAxAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\appsettings.json",
+              "RelativeToolTip": "src\\ProyectoSoftware.Back.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxMAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-12-05T14:41:10.688Z",
               "EditorCaption": ""
@@ -183,7 +183,7 @@
               "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.API\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\Controllers\\UserController.cs",
               "RelativeToolTip": "src\\ProyectoSoftware.Back.API\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAADoAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAIBJwDoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T13:19:10.769Z",
               "EditorCaption": ""
@@ -196,7 +196,7 @@
               "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.API\\Program.cs",
               "ToolTip": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\Program.cs",
               "RelativeToolTip": "src\\ProyectoSoftware.Back.API\\Program.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAD4AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAIBJwD4AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T13:33:03.699Z",
               "EditorCaption": ""
@@ -209,7 +209,7 @@
               "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.BL\\Services\\EmailServices.cs",
               "ToolTip": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.BL\\Services\\EmailServices.cs",
               "RelativeToolTip": "src\\ProyectoSoftware.Back.BL\\Services\\EmailServices.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAzwBwAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAwDMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T13:15:56.374Z",
               "EditorCaption": ""
