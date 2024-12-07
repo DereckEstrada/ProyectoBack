@@ -12,9 +12,11 @@ namespace ProyectoSoftware.Back.BE.Dtos
         public string? Address { get; set; } 
         public int? UserId { get; set; }
         public string? NameUser { get; set; }
+        public string? Email { get; set; }
         public string? Phone { get; set; }
         public string? Name { get; set; }
         public string? LastName { get; set; }
+        public string? Rol { get; set; }
         public DateOnly? DateBirth { get; set; }
         public int? SexId { get; set; }
         public string? DescriptionSex { get; set; }

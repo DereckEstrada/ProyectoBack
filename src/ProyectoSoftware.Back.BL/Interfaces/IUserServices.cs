@@ -14,9 +14,9 @@ namespace ProyectoSoftware.Back.BL.Interfaces
         Task<ResponseHttp<TokenJWT>> GetUser(AuthenticationRequest request);
         Task<ResponseHttp<bool>> UpdateUser(UserRequest request);
         Task<ResponseHttp<bool>> ChangesPassword(AuthenticationRequest request);
-        Task<ResponseHttp<bool>> RestedUser(AuthenticationRequest request);
+        Task<ResponseHttp<bool>> RestedUser(RecoveredRequest request);
         Task<ResponseHttp<bool>> GeneratedToken(EmailRequest request);
-        Task<ResponseHttp<bool>> ValidToken(AuthenticationRequest request);
+        Task<ResponseHttp<bool>> ValidToken(RecoveredRequest request);
 
     }
 }

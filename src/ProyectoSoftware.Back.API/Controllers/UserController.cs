@@ -46,11 +46,11 @@ namespace ProyectoSoftware.Back.API.Controllers
             return response;
         }
         [HttpPost("[action]")]
-        public async Task<ResponseHttp<bool>> ValidToken(AuthenticationRequest request)
+        public async Task<ResponseHttp<bool>> ValidToken(RecoveredRequest request)
         {
             ResponseHttp<bool> response = new();
             try
-            {
+            {   
                 response = await _services.ValidToken(request);
             }
             catch (Exception)
@@ -60,7 +60,7 @@ namespace ProyectoSoftware.Back.API.Controllers
             return response;
         }
         [HttpPost("[action]")]
-        public async Task<ResponseHttp<bool>> RestedUser(AuthenticationRequest request)
+        public async Task<ResponseHttp<bool>> RestedUser(RecoveredRequest request)
         {
             ResponseHttp<bool> response = new();
             try

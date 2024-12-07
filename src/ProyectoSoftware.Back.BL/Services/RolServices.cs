@@ -24,10 +24,10 @@ namespace ProyectoSoftware.Back.BL.Services
         public async Task<ResponseHttp<List<Rol>>> GetRol()
         {
             ResponseHttp<List<Rol>> response = new();
-            bool containsList= response.Data!=null && response.Data.Count>0;
             try
             {
                 response.Data= await _repository.GetRol();
+                bool containsList = response.Data != null && response.Data.Count > 0;
                 response.Code = containsList ? CodeResponse.Ok : CodeResponse.NoContent;
                 response.Message=containsList? MessageResponse.Ok : MessageResponse.NoContent;
             }

@@ -39,7 +39,7 @@ namespace ProyectoSoftware.Back.BE.Utilitarian
                 };
                 var token = tokenHandler.CreateToken(tokenDescriptor);
                 var tokenString = tokenHandler.WriteToken(token);
-                TokenJWT tokenCreate = new() { Token = tokenString , DateExpirated= DateTime.UtcNow.AddHours(1) };
+                TokenJWT tokenCreate = new() { Token = tokenString , DateExpirated= DateTime.UtcNow.AddHours(1)};
                 return tokenCreate;
             }
             catch (Exception)

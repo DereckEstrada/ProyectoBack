@@ -39,18 +39,21 @@ namespace ProyectoSoftware.Back.BL.Services
                 {
                     throw new Exception("Login Incorrecto");
                 }
+                if (ValidLoginAttempts(user))
+                {
+                    throw new Exception("La cuenta ha sido bloqueada, vuelva a intentarlo más tarde");
+                }
                 if (!user.Password.Equals(request.Password.Encrypted()))
                 {
                     await UpdateUserFailed(user);
                     throw new Exception("Login Incorrecto");
                 }
-                if (ValidLoginAttempts(user))
-                {
-                    throw new Exception("La cuenta ha sido bloqueada, vuelva a intentarlo más tarde");
-                }
                 var userDto=_mapper.Map<UserDto>(user);                
                 await UpdateUserCorrect(user);
-                response.Data=_keyToken.CreatedToken(userDto);
+                var token = _keyToken.CreatedToken(userDto);
+                token.User = user.NameUser;
+                token.Rol = user.RolId;
+                response.Data=token;
                 response.Code = CodeResponse.Ok;
                 response.Message=MessageResponse.Ok;
 
@@ -66,7 +69,7 @@ namespace ProyectoSoftware.Back.BL.Services
                 try
                 {
                     user.Attempts += 1;
-                    if (user.Attempts == 5)
+                    if (user.Attempts > 5)
                     {
                         user.Blocked = true;
                         user.DateLastAttempts = DateTime.Now.AddHours(1);
@@ -83,7 +86,7 @@ namespace ProyectoSoftware.Back.BL.Services
             bool valid = false; 
             try
             {
-                if (!user.Blocked && user.DateLastAttempts<DateTime.Now)
+                if (user.Blocked && user.DateLastAttempts>DateTime.Now)
                 {
                     valid = true;
                 }
@@ -154,10 +157,10 @@ namespace ProyectoSoftware.Back.BL.Services
             return response;
         }
 
-        public async Task<ResponseHttp<bool>> RestedUser(AuthenticationRequest request)
+        public async Task<ResponseHttp<bool>> RestedUser(RecoveredRequest request)
         {
             ResponseHttp<bool> response = new();
-            Expression<Func<User, bool>> expression = user => user.Email.Equals(request.Email);
+            Expression<Func<User, bool>> expression = user => user.RecoveredToken!=null&& user.RecoveredToken.Equals(request.Token);
             try
             {
                 var user = await _repository.GetUser(expression).FirstOrDefaultAsync();
@@ -211,7 +214,14 @@ namespace ProyectoSoftware.Back.BL.Services
                 var validParams=request.Params ?? throw new Exception("Sin parametros");
                 request.Params["link"] += token;
 
-                response = await SendEmailToken(request);
+                var responseEmail = await SendEmailToken(request);
+                if (responseEmail.Data == false)
+                {
+                    throw new Exception("Comuniquese con el departamente de desarrollo para su ayuda");
+                }
+                response.Code = CodeResponse.Accepted;
+                response.Data = true;
+                response.Message=MessageResponse.Accepted;
             }
             catch (Exception)
             {
@@ -233,7 +243,7 @@ namespace ProyectoSoftware.Back.BL.Services
             }
             return response;
         }
-        public async Task<ResponseHttp<bool>> ValidToken(AuthenticationRequest request)
+        public async Task<ResponseHttp<bool>> ValidToken(RecoveredRequest request)
         {
             ResponseHttp<bool> response = new();
             Expression<Func<User, bool>> expression = user => user.RecoveredToken != null && user.RecoveredToken.Equals(request.Token);

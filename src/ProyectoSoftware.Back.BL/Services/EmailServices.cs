@@ -2,17 +2,11 @@
 using Microsoft.Extensions.Options;
 using ProyectoSoftware.Back.BE.Request;
 using ProyectoSoftware.Back.BL.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Mail;
+
 using System.Net;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http.Headers;
 using ProyectoSoftware.Back.BE.Utilitarian;
 using ProyectoSoftware.Back.BE.Const;
+using System.Net.Mail;
 
 namespace ProyectoSoftware.Back.BL.Services
 {
@@ -26,32 +20,33 @@ namespace ProyectoSoftware.Back.BL.Services
         {
             ResponseHttp<bool> response = new();
             try
-            {
-                string username = this._credential.Username;
-                string password = this._credential.Password;
+            {               
+                string username = this._credential.Username ?? throw new Exception("Falta de credenciales");
+                string password = this._credential.Password ?? throw new Exception("Falta de credenciales");
                 int port = this._credential.Port;
-                string host = this._credential.Host;
+                string host = this._credential.Host ?? throw new Exception("Falta de configuración");
                 var message = new MailMessage();
                 message.From = new MailAddress(username);
-                message.To.Add(new MailAddress(emailDto.To));
+                message.To.Add(new MailAddress(emailDto.To ?? throw new Exception("Sin email a cual enviar")));
                 message.Subject = emailDto.Subject;
-                message.Body = GetDocument(emailDto.Template, emailDto.Params);
+                message.Body = GetDocument(emailDto.Template ?? throw new Exception("Sin template"), emailDto.Params ?? throw new Exception("Sin parametros"));
                 message.IsBodyHtml = true;
                 var smtpClient = new SmtpClient(host)
                 {
                     Port = port,
                     Credentials = new NetworkCredential(username, password),
-                    EnableSsl = true
+                    EnableSsl = true,                   
                 };
-                await smtpClient.SendMailAsync(message);
+
+                smtpClient.Send(message);
 
                 response.Code = CodeResponse.Accepted;
                 response.Data = true;
                 response.Message = MessageResponse.Accepted;
             }
-            catch (Exception )
+            catch (Exception)
             {
-                throw;
+                response.Data=false;
             }
             return response;
         }

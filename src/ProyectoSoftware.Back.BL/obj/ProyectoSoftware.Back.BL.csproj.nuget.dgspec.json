@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj": {}
+    "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.BE\\ProyectoSoftware.Back.BE.csproj": {
+    "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.BE\\ProyectoSoftware.Back.BE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.BE\\ProyectoSoftware.Back.BE.csproj",
+        "projectUniqueName": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.BE\\ProyectoSoftware.Back.BE.csproj",
         "projectName": "ProyectoSoftware.Back.BE",
-        "projectPath": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.BE\\ProyectoSoftware.Back.BE.csproj",
-        "packagesPath": "C:\\Users\\viamatica\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.BE\\obj\\",
+        "projectPath": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.BE\\ProyectoSoftware.Back.BE.csproj",
+        "packagesPath": "C:\\Users\\derec\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.BE\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\viamatica\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\derec\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,9 +39,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -93,25 +89,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj": {
+    "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj",
+        "projectUniqueName": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj",
         "projectName": "ProyectoSoftware.Back.BL",
-        "projectPath": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj",
-        "packagesPath": "C:\\Users\\viamatica\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.BL\\obj\\",
+        "projectPath": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj",
+        "packagesPath": "C:\\Users\\derec\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.BL\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\viamatica\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\derec\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -119,17 +111,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.BE\\ProyectoSoftware.Back.BE.csproj": {
-                "projectPath": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.BE\\ProyectoSoftware.Back.BE.csproj"
+              "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.BE\\ProyectoSoftware.Back.BE.csproj": {
+                "projectPath": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.BE\\ProyectoSoftware.Back.BE.csproj"
               },
-              "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.DAL\\ProyectoSoftware.Back.DAL.csproj": {
-                "projectPath": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.DAL\\ProyectoSoftware.Back.DAL.csproj"
+              "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.DAL\\ProyectoSoftware.Back.DAL.csproj": {
+                "projectPath": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.DAL\\ProyectoSoftware.Back.DAL.csproj"
               }
             }
           }
@@ -142,9 +135,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -171,25 +163,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.DAL\\ProyectoSoftware.Back.DAL.csproj": {
+    "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.DAL\\ProyectoSoftware.Back.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.DAL\\ProyectoSoftware.Back.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.DAL\\ProyectoSoftware.Back.DAL.csproj",
         "projectName": "ProyectoSoftware.Back.DAL",
-        "projectPath": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.DAL\\ProyectoSoftware.Back.DAL.csproj",
-        "packagesPath": "C:\\Users\\viamatica\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.DAL\\obj\\",
+        "projectPath": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.DAL\\ProyectoSoftware.Back.DAL.csproj",
+        "packagesPath": "C:\\Users\\derec\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.DAL\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\viamatica\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\derec\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -197,14 +185,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.BE\\ProyectoSoftware.Back.BE.csproj": {
-                "projectPath": "C:\\Users\\viamatica\\Documents\\Practica\\ProyectoBack\\src\\ProyectoSoftware.Back.BE\\ProyectoSoftware.Back.BE.csproj"
+              "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.BE\\ProyectoSoftware.Back.BE.csproj": {
+                "projectPath": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.BE\\ProyectoSoftware.Back.BE.csproj"
               }
             }
           }
@@ -217,9 +206,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -240,7 +228,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

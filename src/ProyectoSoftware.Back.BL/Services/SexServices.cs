@@ -18,10 +18,10 @@ namespace ProyectoSoftware.Back.BL.Services
         public async Task<ResponseHttp<List<Sex>>> GetSex()
         {
             ResponseHttp<List<Sex>> response = new();
-            bool containsList = response.Data != null && response.Data.Count > 0;
             try
             {
-                response.Data = await _repository.GetSex();
+                response.Data = await _repository.GetSex();                
+                bool containsList = response.Data != null && response.Data.Count > 0;
                 response.Code = containsList ? CodeResponse.Ok : CodeResponse.NoContent;
                 response.Message = containsList ? MessageResponse.Ok : MessageResponse.NoContent;
             }

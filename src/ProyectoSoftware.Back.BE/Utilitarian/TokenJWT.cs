@@ -11,6 +11,8 @@ namespace ProyectoSoftware.Back.BE.Utilitarian
     {
         [Required]
         public required string Token { get; set; }   
+        public  string? User { get; set; }
+        public  int? Rol{ get; set; }
         public DateTime? DateExpirated { get; set; }
 
     }

@@ -231,7 +231,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "ProyectoSoftware.Back.BE.Request.AuthenticationRequest",
+        "Type": "ProyectoSoftware.Back.BE.Request.RecoveredRequest",
         "IsRequired": true
       }
     ],
@@ -283,7 +283,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "ProyectoSoftware.Back.BE.Request.AuthenticationRequest",
+        "Type": "ProyectoSoftware.Back.BE.Request.RecoveredRequest",
         "IsRequired": true
       }
     ],

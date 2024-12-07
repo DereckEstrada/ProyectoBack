@@ -11,6 +11,8 @@ namespace ProyectoSoftware.Back.BE.Request
     {
         public int PersonaId { get; set; }
         public int UserId { get; set; }
+        public string? Name { get; set; }
+        public string? LastName { get; set; }
         public string Address { get; set; } = null!;
         public string? Phone { get; set; }
         public DateOnly? DateBirth { get; set; }
@@ -23,6 +25,6 @@ namespace ProyectoSoftware.Back.BE.Request
         public DateTime? DateModificate { get; set; }
         public int? UserCreate { get; set; }
         public int? UserModificate { get; set; }        
-        public virtual User User { get; set; } = null!;
+        public virtual User? User { get; set; } = null!;
     }
 }
