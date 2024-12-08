@@ -1,9 +1,11 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 
 using Microsoft.AspNetCore.Mvc;
+using ProyectoSoftware.Back.BE.Const;
 using ProyectoSoftware.Back.BE.Models;
 using ProyectoSoftware.Back.BE.Utilitarian;
 using ProyectoSoftware.Back.BL.Interfaces;
+using System.Security.Claims;
 
 namespace ProyectoSoftware.Back.API.Controllers
 {

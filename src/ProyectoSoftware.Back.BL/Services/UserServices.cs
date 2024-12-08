@@ -34,6 +34,7 @@ namespace ProyectoSoftware.Back.BL.Services
             Expression<Func<User, bool>> expression = user => user.Email.Equals(request.Email);
             try
             {
+
                 var user = await _repository.GetUser(expression).FirstOrDefaultAsync();
                 if (user == null)
                 {
@@ -43,12 +44,14 @@ namespace ProyectoSoftware.Back.BL.Services
                 {
                     throw new Exception("La cuenta ha sido bloqueada, vuelva a intentarlo más tarde");
                 }
+
                 if (!user.Password.Equals(request.Password.Encrypted()))
                 {
                     await UpdateUserFailed(user);
                     throw new Exception("Login Incorrecto");
                 }
-                var userDto=_mapper.Map<UserDto>(user);                
+
+                var userDto=await BuilUserDto(user);                
                 await UpdateUserCorrect(user);
                 var token = _keyToken.CreatedToken(userDto);
                 token.User = user.NameUser;
@@ -63,6 +66,26 @@ namespace ProyectoSoftware.Back.BL.Services
                 throw;
             }
             return response;
+        }
+        private async Task<UserDto> BuilUserDto(User user)
+        {
+            var userDto=new UserDto();
+            Expression<Func<User, bool>> expression = userDb => userDb.UserId == user.UserId;
+            try
+            {
+                userDto = await _repository.GetUser(expression).Include(userDb => userDb.Rol).Select(userDb => new UserDto
+                {
+                    Email = userDb.Email,
+                    Rol = userDb.Rol.DescriptionRol,
+                    UserId=userDb.UserId
+                }).FirstOrDefaultAsync();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            return userDto??new UserDto();
         }
         private async Task UpdateUserFailed(User user)
         {
@@ -164,11 +187,11 @@ namespace ProyectoSoftware.Back.BL.Services
             try
             {
                 var user = await _repository.GetUser(expression).FirstOrDefaultAsync();
-                if (user != null) 
+                if (user == null) 
                 {
                     throw new Exception(_invalidToken);
                 }
-                user.Password = user.Password.Encrypted();
+                user.Password = request.Password.Encrypted();
                 await _repository.UpdateUser(user);
                 response.Code = CodeResponse.Accepted;
                 response.Data = true;

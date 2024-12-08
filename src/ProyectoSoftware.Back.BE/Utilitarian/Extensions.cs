@@ -22,7 +22,7 @@ namespace ProyectoSoftware.Back.BE.Utilitarian
         {            
             try
             {
-                var tokenHandler = new JwtSecurityTokenHandler();                
+                var tokenHandler = new JwtSecurityTokenHandler();
                 var signinkey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key));
                 var tokenDescriptor = new SecurityTokenDescriptor
                 {

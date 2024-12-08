@@ -8,7 +8,7 @@ using ProyectoSoftware.Back.BL.Interfaces;
 
 namespace ProyectoSoftware.Back.API.Controllers
 {
-    [Authorize(Roles = "ADMIN")]
+    [Authorize(Roles ="ADMIN")]
     [Route("api/[controller]")]
     [ApiController]
     public class PersonController : ControllerBase

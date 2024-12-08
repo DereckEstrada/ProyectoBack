@@ -56,7 +56,14 @@ builder.Services.AddAuthentication(options =>
             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["keyJWT"] ?? throw new Exception("Sin Key JWT"))),
             ClockSkew = TimeSpan.Zero
         };
+
     });
+
+builder.Services.AddAuthorizationBuilder()
+.AddPolicy("Admin", policy =>
+{
+    policy.RequireRole("ADMIN");
+});
 builder.Services.Configure<EmailCredential>(builder.Configuration.GetSection(EmailCredential.Credential));
 
 var app = builder.Build();
