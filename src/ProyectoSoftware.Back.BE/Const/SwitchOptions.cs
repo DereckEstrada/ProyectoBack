@@ -9,5 +9,6 @@ namespace ProyectoSoftware.Back.BE.Const
     public class SwitchOptions
     {
         public const string SuperPerson = "SuperPerson";
+        public const string AllPerson = "AllPerson";
     }
 }

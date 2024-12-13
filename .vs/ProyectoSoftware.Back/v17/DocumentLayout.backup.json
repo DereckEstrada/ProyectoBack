@@ -3,18 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{54249F9C-C5EF-48C6-8B7B-30FC808B0267}|src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj|c:\\users\\derec\\onedrive\\documents\\bootcamp\\.netcore\\proyectoback\\src\\proyectosoftware.back.api\\controllers\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54249F9C-C5EF-48C6-8B7B-30FC808B0267}|src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj|solutionrelative:src\\proyectosoftware.back.api\\controllers\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54249F9C-C5EF-48C6-8B7B-30FC808B0267}|src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj|c:\\users\\derec\\onedrive\\documents\\bootcamp\\.netcore\\proyectoback\\src\\proyectosoftware.back.api\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54249F9C-C5EF-48C6-8B7B-30FC808B0267}|src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj|solutionrelative:src\\proyectosoftware.back.api\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54249F9C-C5EF-48C6-8B7B-30FC808B0267}|src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj|c:\\users\\derec\\onedrive\\documents\\bootcamp\\.netcore\\proyectoback\\src\\proyectosoftware.back.api\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54249F9C-C5EF-48C6-8B7B-30FC808B0267}|src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj|solutionrelative:src\\proyectosoftware.back.api\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{54249F9C-C5EF-48C6-8B7B-30FC808B0267}|src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj|c:\\users\\derec\\onedrive\\documents\\bootcamp\\.netcore\\proyectoback\\src\\proyectosoftware.back.api\\controllers\\sexcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{54249F9C-C5EF-48C6-8B7B-30FC808B0267}|src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj|solutionrelative:src\\proyectosoftware.back.api\\controllers\\sexcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,6 +13,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{2EDABF48-8CCB-49D5-A72D-460FA5E13855}|src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj|c:\\users\\derec\\onedrive\\documents\\bootcamp\\.netcore\\proyectoback\\src\\proyectosoftware.back.bl\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2EDABF48-8CCB-49D5-A72D-460FA5E13855}|src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj|solutionrelative:src\\proyectosoftware.back.bl\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5A1B850-9A05-4C50-BB59-B007E46311CC}|src\\ProyectoSoftware.Back.BE\\ProyectoSoftware.Back.BE.csproj|c:\\users\\derec\\onedrive\\documents\\bootcamp\\.netcore\\proyectoback\\src\\proyectosoftware.back.be\\const\\switchoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5A1B850-9A05-4C50-BB59-B007E46311CC}|src\\ProyectoSoftware.Back.BE\\ProyectoSoftware.Back.BE.csproj|solutionrelative:src\\proyectosoftware.back.be\\const\\switchoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EDABF48-8CCB-49D5-A72D-460FA5E13855}|src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj|c:\\users\\derec\\onedrive\\documents\\bootcamp\\.netcore\\proyectoback\\src\\proyectosoftware.back.bl\\services\\personservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EDABF48-8CCB-49D5-A72D-460FA5E13855}|src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj|solutionrelative:src\\proyectosoftware.back.bl\\services\\personservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54249F9C-C5EF-48C6-8B7B-30FC808B0267}|src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj|c:\\users\\derec\\onedrive\\documents\\bootcamp\\.netcore\\proyectoback\\src\\proyectosoftware.back.api\\controllers\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54249F9C-C5EF-48C6-8B7B-30FC808B0267}|src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj|solutionrelative:src\\proyectosoftware.back.api\\controllers\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54249F9C-C5EF-48C6-8B7B-30FC808B0267}|src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj|c:\\users\\derec\\onedrive\\documents\\bootcamp\\.netcore\\proyectoback\\src\\proyectosoftware.back.api\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54249F9C-C5EF-48C6-8B7B-30FC808B0267}|src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj|solutionrelative:src\\proyectosoftware.back.api\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{54249F9C-C5EF-48C6-8B7B-30FC808B0267}|src\\ProyectoSoftware.Back.API\\ProyectoSoftware.Back.API.csproj|c:\\users\\derec\\onedrive\\documents\\bootcamp\\.netcore\\proyectoback\\src\\proyectosoftware.back.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E5A1B850-9A05-4C50-BB59-B007E46311CC}|src\\ProyectoSoftware.Back.BE\\ProyectoSoftware.Back.BE.csproj|c:\\users\\derec\\onedrive\\documents\\bootcamp\\.netcore\\proyectoback\\src\\proyectosoftware.back.be\\utilitarian\\responsehttp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5A1B850-9A05-4C50-BB59-B007E46311CC}|src\\ProyectoSoftware.Back.BE\\ProyectoSoftware.Back.BE.csproj|solutionrelative:src\\proyectosoftware.back.be\\utilitarian\\responsehttp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2EDABF48-8CCB-49D5-A72D-460FA5E13855}|src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj|c:\\users\\derec\\onedrive\\documents\\bootcamp\\.netcore\\proyectoback\\src\\proyectosoftware.back.bl\\services\\personservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EDABF48-8CCB-49D5-A72D-460FA5E13855}|src\\ProyectoSoftware.Back.BL\\ProyectoSoftware.Back.BL.csproj|solutionrelative:src\\proyectosoftware.back.bl\\services\\personservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E5A1B850-9A05-4C50-BB59-B007E46311CC}|src\\ProyectoSoftware.Back.BE\\ProyectoSoftware.Back.BE.csproj|c:\\users\\derec\\onedrive\\documents\\bootcamp\\.netcore\\proyectoback\\src\\proyectosoftware.back.be\\dtos\\persondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,59 +86,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RolController.cs",
-              "DocumentMoniker": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\Controllers\\RolController.cs",
-              "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.API\\Controllers\\RolController.cs",
-              "ToolTip": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\Controllers\\RolController.cs",
-              "RelativeToolTip": "src\\ProyectoSoftware.Back.API\\Controllers\\RolController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "SwitchOptions.cs",
+              "DocumentMoniker": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.BE\\Const\\SwitchOptions.cs",
+              "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.BE\\Const\\SwitchOptions.cs",
+              "ToolTip": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.BE\\Const\\SwitchOptions.cs",
+              "RelativeToolTip": "src\\ProyectoSoftware.Back.BE\\Const\\SwitchOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T22:32:52.652Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EmailController.cs",
-              "DocumentMoniker": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\Controllers\\EmailController.cs",
-              "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.API\\Controllers\\EmailController.cs",
-              "ToolTip": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\Controllers\\EmailController.cs",
-              "RelativeToolTip": "src\\ProyectoSoftware.Back.API\\Controllers\\EmailController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T22:32:49.367Z",
+              "WhenOpened": "2024-12-13T00:00:19.278Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PersonController.cs",
-              "DocumentMoniker": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\Controllers\\PersonController.cs",
-              "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.API\\Controllers\\PersonController.cs",
-              "ToolTip": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\Controllers\\PersonController.cs",
-              "RelativeToolTip": "src\\ProyectoSoftware.Back.API\\Controllers\\PersonController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T22:11:06.32Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Extensions.cs",
               "DocumentMoniker": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.BE\\Utilitarian\\Extensions.cs",
               "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.BE\\Utilitarian\\Extensions.cs",
               "ToolTip": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.BE\\Utilitarian\\Extensions.cs",
               "RelativeToolTip": "src\\ProyectoSoftware.Back.BE\\Utilitarian\\Extensions.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBUAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswBUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-07T18:01:49.634Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\Program.cs",
               "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.API\\Program.cs",
@@ -146,12 +120,11 @@
               "RelativeToolTip": "src\\ProyectoSoftware.Back.API\\Program.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T16:49:22.416Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T16:49:22.416Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\appsettings.json",
               "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.API\\appsettings.json",
@@ -159,38 +132,37 @@
               "RelativeToolTip": "src\\ProyectoSoftware.Back.API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAB8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-07T13:20:12.639Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T13:20:12.639Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "UserServices.cs",
               "DocumentMoniker": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.BL\\Services\\UserServices.cs",
               "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.BL\\Services\\UserServices.cs",
               "ToolTip": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.BL\\Services\\UserServices.cs",
               "RelativeToolTip": "src\\ProyectoSoftware.Back.BL\\Services\\UserServices.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAswB8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-07T05:12:25.951Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "SexController.cs",
               "DocumentMoniker": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\Controllers\\SexController.cs",
               "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.API\\Controllers\\SexController.cs",
               "ToolTip": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\Controllers\\SexController.cs",
               "RelativeToolTip": "src\\ProyectoSoftware.Back.API\\Controllers\\SexController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswBgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-07T07:16:11.97Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.API\\Controllers\\UserController.cs",
@@ -198,8 +170,7 @@
               "RelativeToolTip": "src\\ProyectoSoftware.Back.API\\Controllers\\UserController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T05:14:10.718Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T05:14:10.718Z"
             },
             {
               "$type": "Document",
@@ -215,6 +186,43 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PersonServices.cs",
+              "DocumentMoniker": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.BL\\Services\\PersonServices.cs",
+              "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.BL\\Services\\PersonServices.cs",
+              "ToolTip": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.BL\\Services\\PersonServices.cs",
+              "RelativeToolTip": "src\\ProyectoSoftware.Back.BL\\Services\\PersonServices.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAgwDMAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T06:12:21.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmailController.cs",
+              "DocumentMoniker": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\Controllers\\EmailController.cs",
+              "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.API\\Controllers\\EmailController.cs",
+              "ToolTip": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\Controllers\\EmailController.cs",
+              "RelativeToolTip": "src\\ProyectoSoftware.Back.API\\Controllers\\EmailController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T22:32:49.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RolController.cs",
+              "DocumentMoniker": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\Controllers\\RolController.cs",
+              "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.API\\Controllers\\RolController.cs",
+              "ToolTip": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.API\\Controllers\\RolController.cs",
+              "RelativeToolTip": "src\\ProyectoSoftware.Back.API\\Controllers\\RolController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T22:32:52.652Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 13,
               "Title": "RolServices.cs",
               "DocumentMoniker": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.BL\\Services\\RolServices.cs",
@@ -227,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ResponseHttp.cs",
               "DocumentMoniker": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.BE\\Utilitarian\\ResponseHttp.cs",
               "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.BE\\Utilitarian\\ResponseHttp.cs",
@@ -235,8 +243,7 @@
               "RelativeToolTip": "src\\ProyectoSoftware.Back.BE\\Utilitarian\\ResponseHttp.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T21:33:43.239Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T21:33:43.239Z"
             },
             {
               "$type": "Document",
@@ -261,19 +268,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-07T06:58:59.768Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PersonServices.cs",
-              "DocumentMoniker": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.BL\\Services\\PersonServices.cs",
-              "RelativeDocumentMoniker": "src\\ProyectoSoftware.Back.BL\\Services\\PersonServices.cs",
-              "ToolTip": "C:\\Users\\derec\\OneDrive\\Documents\\Bootcamp\\.NetCore\\ProyectoBack\\src\\ProyectoSoftware.Back.BL\\Services\\PersonServices.cs",
-              "RelativeToolTip": "src\\ProyectoSoftware.Back.BL\\Services\\PersonServices.cs",
-              "ViewState": "AgIAAIUAAAAAAAAAAAAkwKEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T06:12:21.938Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",

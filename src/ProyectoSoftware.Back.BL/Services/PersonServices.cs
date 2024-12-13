@@ -57,6 +57,9 @@ namespace ProyectoSoftware.Back.BL.Services
             {
                 switch (request.Search)
                 {
+                    case SwitchOptions.AllPerson:
+                        expression = person => true;
+                        break;
                     case SwitchOptions.SuperPerson:
                         expression = person => person.LastName != null &&
                         person.LastName.Contains(request.Data)
